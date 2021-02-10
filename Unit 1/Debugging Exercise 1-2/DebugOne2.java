@@ -1,3 +1,5 @@
+// DebugOne2.java - Iakov Taranenko - 2/2/2021
+
 /* 
 
 Debugging Exercise 1-2
@@ -6,11 +8,9 @@ The files provided in the code editor to the right contain syntax and/or logic e
 
 */
 
-public class DebugOne2
-{
+public class DebugOne2 {
    /* This program displays some output*/
-   public static void main(String[] args)
-   {
+   public static void main(String[] args) {
       System.out.println("Java programming is fun.");
       System.out.println("Getting a program to work");
       System.out.println("can be a challenge,");

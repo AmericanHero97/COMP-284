@@ -1,3 +1,5 @@
+// Triangle.java - Iakov Taranenko - 2/2/2021
+
 /* 
 
 Programming Exercise 1-9
