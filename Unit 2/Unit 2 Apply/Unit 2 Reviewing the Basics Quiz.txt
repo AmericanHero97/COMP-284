@@ -1,0 +1,113 @@
+Unit 2 Reviewing the Basics Quiz
+
+1. The assignment operator in Java is ==
+	a. True
+	b. False [CORRECT]
+
+2. Which of the following data types can store the value 0 using the least amount of memory?
+	a. int
+	b. short
+	c. byte [CORRECT]
+	d. long
+
+3. A boolean variable can hold any character.
+	a. True
+	b. False [CORRECT]
+
+4. If you attempt to add a float, an int, and a byte, the result will be a(n) ____________.
+	a. error message
+	b. int
+	c. float [CORRECT]
+	d. byte
+
+5. The equal to relational operator is ____________.
+	a. "==" [CORRECT]
+	b. "!="
+	c. "!!"
+	d. "="
+
+6. Which assignment is correct in Java?
+	a. char aChar = '*'; [CORRECT]
+	b. char aChar = 5.5;
+	c. Two of these are correct
+	d. char aChar = "W";
+
+7. An escape sequence always begins with a(n) ____________.
+	a. backslash [CORRECT]
+	b. e
+	c. forward slash
+	d. equal sign
+
+8. Which assignment is correct in Java?
+	a. double money = 12;
+	b. double money = 12.0;
+	c. double money = 12.0d;
+	d. all of the above [CORRECT]
+
+9. The remainder operator ____________.
+	a. provides the quotient of integer division
+	b. is represented by a forward slash
+	c. must follow a division operation
+	d. is represented by % [CORRECT]
+
+10. According to the rules of operator precedence, when division occurs in the same arithmetic statement as ____________, the division operation always takes place first.
+	a. multiplication
+	b. remainder
+	c. subtraction [CORRECT]
+	d. Answers a and b are correct.
+
+11. Assuming you have declared shoeSize to be a variable of type int, which of the following is a valid assignment statement in Java?
+	a. shoeSize = "nine";
+	b. shoeSize = 9; [CORRECT]
+	c. shoeSize = 9.5;
+	d. Two of the above are valid.
+
+12. Which Java statement produces w on one line and xyz on the next line?
+	a. System.out.println("wxyz");
+	b. System.out.println("w\nxyz"); [CORRECT]
+	c. System.out.println("w" + "xyz");
+	d. System.out.println("w\nx\ny\nz");
+
+13. When you perform arithmetic with values of diverse types, Java ____________.
+	a. implicitly converts the values to a unifying type [CORRECT]
+	b. issues an error message
+	c. implicitly converts the values to the type of the first operand
+	d. requires you to explicitly convert the values to a unifying type
+
+14. Which assignment is correct in Java?
+	a. float value = 4 (double);
+	b. int value = (float) 4.5;
+	c. char value = 5c;
+	d. double value = 2.12; [CORRECT]
+
+15. Which of the following is not a primitive data type in Java?
+	a. boolean
+	b. sector [CORRECT]
+	c. int
+	d. byte
+
+16. Which of the following elements is not required in a variable declaration?
+	a. an assigned value [CORRECT]
+	b. a semicolon
+	c. a type
+	d. an identifier
+
+17. You use a type cast to explicitly override an implicit type.
+	a. True [CORRECT]
+	b. False
+
+18. When data cannot be changed after a class is compiled, the data is ____________.
+	a. volatile
+	b. variable
+	c. mutable
+	d. constant [CORRECT]
+
+19. In Java, what is the value of 3 + 7 * 4 + 2?
+	a. 42
+	b. 48
+	c. 33 [CORRECT]
+	d. 21
+
+20. The value 137.68 can be held by a variable of type float.
+	a. True [CORRECT]
+	b. False

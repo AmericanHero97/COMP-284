@@ -1,0 +1,46 @@
+Unit 2 Two Truths & A Lie
+
+1. Two of the following statements are true, and one is false. Identify the false statement and explain why it is false.
+	a. A variable is a named memory location that you can use to store a value; it can hold only one value at a time, but the value it holds can change.	
+	b. A variable declaration is a statement that reserves a named memory location and includes a data type, an identifier, an optional assignment operator and assigned value, and an ending semicolon.	
+	c. An item's data type determines what legal identifiers can be used to describe variables and whether the variables can occupy memory. [CORRECT]
+
+2. Identify the false statement and explain why it is false.
+	a. You can use the data types byte or short to hold larger values than can be accommodated by an int. [CORRECT]
+	b. A variable of type int can hold any whole number value from approximately negative two billion to positive two billion.	
+	c. When you assign a value to an int variable, you do not type any commas; you type only digits and an optional plus or minus sign to indicate a positive or negative integer.
+
+3. Identify the false statement and explain why it is false.
+	a. An expression that contains a relational operator has a Boolean value.	
+	b. A Boolean variable can hold only one of two values—true or false.	
+	c. Java supports six relational operators that are used to make comparisons: =, <, >, = <, =>, and =!. [CORRECT]
+
+4. Identify the false statement and explain why it is false.
+	a. As with integers, you can perform the mathematical operations of addition, subtraction, multiplication, and division with floating-point numbers.	
+	b. A floating-point constant, such as 5.6, is a float by default. [CORRECT]
+	c. Java supports two floating-point data types: float and double. The double data type requires more memory and can hold more significant digits.
+
+5. Identify the false statement and explain why it is false.
+	a. To store a string of characters, you use a data structure called a Text; string constants are written between parentheses. [CORRECT]
+	b. You use the char data type to hold any single character; you place constant character values within single quotation marks.	
+	c. An escape sequence always begins with a backslash followed by a character; the pair represents a single character.
+
+6. Identify the false statement and explain why it is false.
+	a. System.in refers to the standard input device, which normally is the keyboard.	
+	b. System.in is more flexible than System.out because it can read all the basic Java data types. [CORRECT]
+	c. When a user types data followed by the Enter key, the Enter key character is left in the keyboard buffer after Scanner class methods retrieve the other keystrokes.
+
+7. Identify the false statement and explain why it is false.
+	a. You can use methods from the Java classes Integer and Double when you want to convert a dialog box's returned values to numbers.	
+	b. You can create an input dialog box using the showInputDialog() method; the method returns a String that represents a user's response.	
+	c. A confirm dialog box can be created using the showConfirmDialog() method in the JOptionPane class; a confirm dialog box displays the options Accept, Reject, and Escape. [CORRECT]
+
+8. Identify the false statement and explain why it is false.
+	a. The arithmetic operators are examples of unary operators, which are so named because they perform one operation at a time. [CORRECT]
+	b. Floating-point arithmetic might produce imprecise results.	
+	c. In Java, operator precedence dictates that multiplication, division, and remainder always take place prior to addition or subtraction in an expression.
+
+9. Identify the false statement and explain why it is false.
+	a. You can explicitly override the unifying type imposed by Java by performing a type cast; type casting forces a value of one data type to be used as a value of another type.	
+	b. When you perform arithmetic operations with operands of unlike types, you must make an explicit conversion to a unifying type. [CORRECT]
+	c. Summing a double, int, and float results in a double.

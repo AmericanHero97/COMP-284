@@ -1,0 +1,81 @@
+Programming Exercise 2-1
+
+What is the numeric value of each of the following expressions as evaluated by Java?
+
+a. 4 + 6 * 2
+b. 10 / 5 + 8
+c. 12 / 4 + 16 / 2
+d. 17 / 2
+e. 22 / 5
+f. 39 / 10
+g. 19 % (2 + 3)
+h. 3 + 4 * 20 / 3
+i. 36 % (6 + 2)
+j. 8 % 2 * 0
+
+a. 16
+b. 10
+c. 11
+d. 8
+e. 4
+f. 39/10
+g.  4
+h. 29
+i. 4
+j. 0
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Programming Exercise 2-2
+
+What is the value of each of the following Boolean expressions?
+
+a. 15 < 13
+b. 8 <= 5 (2 + 6)
+c. 15 == 15
+d. 3 >= 3
+e. 4*2 == 2*4
+f. 5 < 8 – 3
+g. 7 != 7
+h. 8 != (2 + 5)
+i. 10 – 20 == –10
+j. 3 + 2 * 6 == 30
+
+a. false
+b. true
+c. true
+d. true
+e. true
+f. false
+g. false
+h. true
+i. true
+j. true
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Programming Exercises 2-3
+
+Choose the best data type for each of the following so that any reasonable value is accommodated but no memory storage is wasted. Give an example of a typical value that would be held by the variable, and explain why you chose the type you did.
+
+a. the number of siblings you have
+b. your final grade in this class
+c. the population of Earth
+d. the population of a U.S. county
+e. the number of passengers on a bus
+f. one player's score in a Scrabble game
+g. one team's score in a Major League Baseball game
+h. the year an historical event occurred
+i. the number of legs on an animal
+j. the price of an automobile
+
+a. int - the "int" variable type stores whole numbers, and since humans cannot be counted with a decimal, "int" is the only option.
+b. char - the "char" variable type stores a single character, this is perfect since we can store such chars for grades like "A", "B", ect.
+c. int - the "int" variable type stores whole numbers, and since humans cannot be counted with a decimal, "int" is the only option.
+d. int - the "int" variable type stores whole numbers, and since humans cannot be counted with a decimal, "int" is the only option.
+e. int - the "int" variable type stores whole numbers, and since humans cannot be counted with a decimal, "int" is the only option.
+f. int -  the "int" variable type stores whole numbers, since the score system in Scrabble uses whole numbers, "float" is not needed.
+g. int -  the "int" variable type stores whole numbers, and because the MLB scoring system is based off whole numbers, we don't need "float".
+h. int -  the "int" variable type stores whole numbers, and since years cannot include decimals, "int" is our only choice.
+i. int -  the "int" variable type stores whole numbers, and because the amount of legs cannot be a decimal, we can only use "int" for this case.
+j. float - the "float" variable type stores whole numbers with decimals, since we need decimals to calculate the cents in addition to dollars of the purchase, "float" is needed.
