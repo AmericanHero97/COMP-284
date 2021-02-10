@@ -1,0 +1,41 @@
+Unit 1 Two Truths & A Lie
+
+1. Two of the following statements are true, and one is false. Identify the false statement and explain why it is false.
+    a. Unlike a low-level programming language, a high-level programming language allows you to use a vocabulary of reasonable terms instead of the sequences of on-and-off switches that perform the corresponding tasks.	
+	b. A syntax error occurs when you violate the rules of a language; locating and repairing all syntax errors is part of the process of debugging a program.	
+	c. Logic errors are fairly easy to find because the software that translates a program finds all the logic errors for you. [CORRECT]
+
+2. Identify the false statement and explain why it is false.
+    a. Encapsulation protects data by hiding it within an object.	
+	b. An instance of a class is a created object that possesses the attributes and methods described in the class definition.	
+	c. Polymorphism is the ability to create classes that share the attributes and methods of existing classes, but with more specific features. [CORRECT]
+
+3. Identify the false statement and explain why it is false.
+    a. You can create both console applications and windowed applications using Java.	
+	b. After you write a Java program, the compiler converts the source code into a binary program of bytecode.	
+	c. Java was developed to be architecturally neutral, which means that anyone can build an application without extensive study. [CORRECT]
+
+4. Identify the false statement and explain why it is false.
+	a. In the method header public static void main(String[] args), the word static means that a method is accessible and usable, even though no objects of the class exist.	
+	b. In the method header public static void main(String[] args), the word public is an access specifier.	
+	c. In the method header public static void main(String[] args), the word void means that the main() method is an empty method. [CORRECT]
+
+5. Identify the false statement and explain why it is false.
+    a. When you compile a class, you create a new file with the same name as the original file but with a .class extension.	
+	b. Syntax errors are compile-time errors.	
+	c. After you write and save an application, you can compile the bytecode to create source code. [CORRECT]
+
+6. Identify the false statement and explain why it is false.
+    a. To compile a file named MyProgram.java, you type java MyProgram, but to execute the program you type java MyProgram.java. [CORRECT]
+	b. When you compile a program, sometimes one error in syntax causes multiple error messages.	
+	c. In Java, if a class is public, you must save the class in a file with exactly the same name and a .java extension.
+
+7. Identify the false statement and explain why it is false.
+    a. Block comments start with a forward slash and an asterisk ( /* ) and end with an asterisk and a forward slash ( */ ); they can extend across as many lines as needed.	
+	b. Javadoc comments begin with a forward slash and two asterisks ( /** ) and end with an asterisk and a forward slash ( */ ); they are used to generate documentation with a program named javadoc.	
+	c. Line comments start with two forward slashes ( // ) and end with two backslashes ( \\ ); they can extend across as many lines as needed. [CORRECT]
+
+8. Identify the false statement and explain why it is false.
+    a. A dialog box is a GUI object resembling a window, in which you can place messages you want to display.	
+	b. Different methods can require different numbers of arguments.	
+	c. You use an append statement when you want to access a built-in Java class that is contained in a group of classes called a package. [CORRECT]

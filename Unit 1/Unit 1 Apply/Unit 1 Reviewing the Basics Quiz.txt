@@ -1,0 +1,105 @@
+Unit 1 Reviewing the Basics Quiz
+
+1. You must compile classes written in Java into bytecode.
+    a. True [CORRECT]
+    b. False
+
+2. An instance of a class is a(n) ________________.
+    a. case
+    b. object [CORRECT]
+    c. procedure
+    d. method
+
+3. You save text files containing Java source code using the file extension .java.
+    a. True [CORRECT]
+    b. False
+
+4. Languages that let you use an easily understood vocabulary of descriptive terms, such as read, write, or add, are known as high-level languages.
+	a. True [CORRECT]
+	b. False
+
+5. In a Java program, you must use forward slashes to separate classes, objects, and methods.
+	a. True
+	b. False [CORRECT]
+
+6. Nonexecuting program statements that provide documentation are called comments.
+	a. True [CORRECT]
+	b. False
+
+7. A ________________ translates high-level language statements into machine code.
+	a. compiler [CORRECT]
+	b. programmer
+	c. syntax detector
+	d. decipherer
+
+8. Java supports three types of comments: ________________, ________________, and javadoc.
+	a. single, multiple
+	b. string, literal
+	c. constant, variable
+	d. line, block [CORRECT]
+
+9. The style of indenting used in this text is called ________________.
+	a. K & R Style
+	b. free-form
+	c. C-style
+	d. Allman style [CORRECT]
+
+10. Java is architecturally ________________.
+	a. specific
+	b. oriented
+	c. abstract
+	d. neutral [CORRECT]
+
+11. The command to execute a compiled Java application is ________________.
+	a. javac
+	b. run
+	c. java [CORRECT]
+	d. execute
+
+12. Envisioning program components as objects that are similar to concrete objects in the real world is the hallmark of procedural programming
+	a. True
+	b. False [CORRECT]
+
+13. All Java applications must have a method named ________________.
+	a. java()
+	b. Hello()
+	c. method()
+	d. main() [CORRECT]
+
+14. The most basic circuitry-level computer language is ________________.
+	a. machine language [CORRECT]
+	b. C++
+	c. high-level language
+	d. Java
+
+15. The values of an object's attributes are known as its ________________.
+	a. condition
+	b. state [CORRECT]
+	c. methods
+	d. orientation
+
+16. The individual operations used in a computer program are often grouped into logical units called logistics.
+	a. True
+	b. False [CORRECT]
+
+17. The rules of a programming language constitute its ________________.
+	a. objects
+	b. format
+	c. syntax [CORRECT]
+	d. logic
+
+18. All Java programming statements must end with a period.
+	a. True
+	b. False [CORRECT]
+
+19. Arguments to methods always appear within ________________.
+	a. curly braces
+	b. parentheses [CORRECT]
+	c. double quotation marks
+	d. single quotation marks
+
+20. Named computer memory locations are called ________________.
+	a. variables [CORRECT]
+	b. addresses
+	c. compilers
+	d. appellations
