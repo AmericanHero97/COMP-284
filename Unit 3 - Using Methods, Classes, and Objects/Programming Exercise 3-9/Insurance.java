@@ -22,10 +22,23 @@ import java.util.Scanner;
 
 class Insurance {
     public static void main (String args[]) {
-        // Write your code here
+        Scanner inputService = new Scanner(System.in);
+
+        System.out.print("Enter the current year >> ");
+        int CurrentYear = inputService.nextInt();
+        System.out.print("Enter the birth year >> ");
+        int BirthYear = inputService.nextInt();
+
+        System.out.println("The premium is $" + calculatePremium(CurrentYear, BirthYear));
+
     }
 
     public static int calculatePremium(int curr, int birth) {
-        // Write your code here
+        int Age = curr - birth;
+        int AgeInDecades = Age/10;
+
+        int PremiumPrice = (AgeInDecades + 15) * 20;
+
+        return(PremiumPrice);
     }
 }
