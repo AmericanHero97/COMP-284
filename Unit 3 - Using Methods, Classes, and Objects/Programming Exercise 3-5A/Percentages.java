@@ -21,9 +21,13 @@ An example of the program is shown below:
 
 public class Percentages {
     public static void main (String args[]) {
-        // Write your code here
+        double VariableOne = 2.0;
+        double VariableTwo = 5.0;
+
+        computePercent(VariableOne, VariableTwo);
     }
     public static void computePercent(double x, double y) {
-        // Write your code here
+        System.out.println(x + " is " + ((x * 100) / y) + " percent of " + y);
+        System.out.println(y + " is " + ((y * 100) / x) + " percent of " + x);
     }
 }
