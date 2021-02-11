@@ -1,4 +1,4 @@
-// ShowStudent.Java - Iakov Taranenko - 2/10/2021
+// Student.Java - Iakov Taranenko - 2/10/2021
 
 /* 
 
@@ -19,18 +19,54 @@ The grade point average is 3.1333333333333333
 
 */
 
-class ShowStudent {
-   public static void main (String args[]) {
-      Student pupil = new Student();
-      
-      pupil.setIdNumber(234);
-      pupil.setPoints(47);
-      pupil.setHours(15);
+class Student {
+   private int idNumber;
+   private int hours;
+   private int points;
 
-      pupil.showIdNumber();
-      pupil.showPoints();
-      pupil.showHours();
+   Student() {
+       setIdNumber(9999);
+       setPoints(12);
+       setHours(3);
+   }
 
-      System.out.println("The grade point average is " + pupil.getGradePoint());
+   public void setIdNumber(int number) {
+      idNumber = number;
+   }
+
+   public int getIdNumber() {
+      return(idNumber);
+   }
+
+   public void setHours(int number) {
+      hours = number;
+   }
+
+   public int getHours() {
+      return(hours);
+   }
+
+   public void setPoints(int number) {
+      points = number;
+   }
+
+   public int getPoints() {
+      return(points);
+   }
+
+   public void showIdNumber() {
+      System.out.println("ID Number is: " + idNumber);
+   }
+
+   public void showHours() {
+      System.out.println("Points Earned: " + hours);
+   }
+
+   public void showPoints() {
+      System.out.println("Credit Hours: " + points);
+   }
+
+   public double getGradePoint() {
+      return((double)points / hours);
    }
 }
