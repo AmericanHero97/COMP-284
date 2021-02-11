@@ -1,0 +1,102 @@
+Programming Exercise 3-1
+
+
+Suppose that you have created a program with only the following variables.
+int x = 2;
+int y = 3;
+
+Suppose that you also have a method with the following header:
+public static void mathMethod(int x)
+
+Which of the following method calls are legal?
+
+a. mathMethod(x);
+b. mathMethod(y);
+c. mathMethod(x, y);
+d. mathMethod(x + y);
+e. mathMethod(12L);
+f. mathMethod(12);
+g. mathMethod(12.2);
+h. mathMethod();
+i. mathMethod(a);
+j. mathMethod(a / x);
+
+a. Legal
+b. Legal
+c. Illegal
+d. Legal
+e. Illegal
+f. Legal
+g. Illegal
+h. Illegal
+i. Illegal
+j. Illegal
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Programming Exercise 3-2
+
+
+Suppose that you have created a program with only the following variables.
+int age = 34;
+int weight = 180;
+double height = 5.9;
+
+Suppose that you also have a method with the following header:
+public static void calculate(int age, double size)
+
+Which of the following method calls are legal?
+
+a. calculate(age, weight);
+b. calculate(age, height);
+c. calculate(weight, height);
+d. calculate(height, age);
+e. calculate(45.5, 120);
+f. calculate(12, 120.2);
+g. calculate(age, size);
+h. calculate(2, 3);
+i. calculate(age);
+j. calculate(weight, weight);
+
+a. Legal
+b. Legal
+c. Legal
+d. Legal
+e. Illegal
+f. Legal
+g. Illegal
+h. Legal
+i. Illegal
+j. Legal
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Programming Exercise 3-3
+
+
+Suppose that a class named Bicycle contains a private nonstatic integer named
+height, a public nonstatic String named model, and a public static integer named
+wheels. Which of the following are legal statements in a class named BicycleDemo
+that has instantiated an object as Bicycle myBike = new Bicycle();?
+
+a. myBike.height = 26;
+b. myBike.model = "Cyclone";
+c. myBike.wheels = 3;
+d. myBike.model = 108;
+e. Bicycle.height = 24;
+f. Bicycle.model = "Hurricane";
+g. Bicycle.int = 3;
+h. Bicycle.model = 108;
+i. Bicycle.wheels = 2;
+j. Bicycle yourBike = myBik
+
+a. Illegal
+b. Legal
+c. Legal
+d. Illegal
+e. Illegal
+f. Illegal
+g. Illegal
+h. Illegal
+i. Legal
+j. Legal
