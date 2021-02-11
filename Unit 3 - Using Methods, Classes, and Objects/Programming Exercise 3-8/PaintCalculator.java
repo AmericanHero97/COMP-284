@@ -22,14 +22,34 @@ import java.util.Scanner;
 
 public class PaintCalculator {
     public static void main (String args[]) {
-        // Write your code here
+        Scanner inputService = new Scanner(System.in);
+        final double PRICE_PER_GALLON = 32.0;
+
+        System.out.print("Enter room length >> ");
+        double RoomLength = inputService.nextDouble();
+        System.out.print("Enter room width >> ");
+        double RoomWidth = inputService.nextDouble();
+        System.out.print("Enter room Height >> ");
+        double RoomHeight = inputService.nextDouble();
+
+        double WallSize = computeArea(RoomLength, RoomWidth, RoomHeight);
+        double GallonsNeeded = computeGallons(WallSize);
+        double TotalPrice = GallonsNeeded * PRICE_PER_GALLON;
+
+        System.out.println("You will need " + GallonsNeeded + " gallons");
+        System.out.println("The price to paint the room is $" + TotalPrice);
     }
 
     public static double computeArea(double length, double width, double height) {
-        // Write your code here
+        double LengthWall = length * height;
+        double WidthWall = width * height;
+
+        return((LengthWall * 2) + (WidthWall * 2));
     }
 
     public static double computeGallons(double area) {
-        // Write your code here
+        final double FEET_PER_GALLON = 350;
+
+        return(area/ FEET_PER_GALLON);
     }
 }
