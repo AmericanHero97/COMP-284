@@ -29,6 +29,7 @@ class JobPricing {
         double hoursOnJob;
         double hoursTraveling;
         double price;
+
         Scanner input = new Scanner(System.in);
         System.out.print("Enter job description >> ");
         description = input.nextLine();
@@ -38,11 +39,19 @@ class JobPricing {
         hoursOnJob = input.nextDouble();
         System.out.print("Enter hours traveling >> ");
         hoursTraveling = input.nextDouble();
+
         price = computePrice(materials, hoursOnJob, hoursTraveling);
         System.out.println("The price for " + description + " is $" + price);
     }
 
     public static double computePrice(double materials, double hours, double travel) {
-        // Write your code here
+        final double HOURLY_WAGE_PER_HOUR = 35.0;
+        final double TRAVEL_PRICE_PER_HOUR = 12.0;
+
+        double WageCost = hours * HOURLY_WAGE_PER_HOUR;
+        double TravelCost = travel * TRAVEL_PRICE_PER_HOUR;
+        double TotalPrice = materials + WageCost + TravelCost;
+
+        return(TotalPrice);
     }
 }
