@@ -23,16 +23,23 @@ An example of the program is shown below:
 
 public class NumbersDemo {
     public static void main (String args[]) {
-        // Write your code here
+        int VariableOne = 4;
+        int VariableTwo = 33;
+
+        displayTwiceTheNumber(VariableOne);
+        displayTwiceTheNumber(VariableTwo);
+        displayNumberPlusFive(VariableOne);
+        displayNumberPlusFive(VariableTwo);
+        displayNumberSquared(VariableOne);
+        displayNumberSquared(VariableTwo);
     }
     public static void displayTwiceTheNumber(int n) {
-        // Write your code here
+        System.out.println(n + " times 2 is " + (n * 2));
     }
     public static void displayNumberPlusFive(int n) {
-        // Write your code here
+        System.out.println(n + " plus 5 is " + (n + 5));
     }
     public static void displayNumberSquared(int n) {
-        // Write your code here
-
+        System.out.println(n + " squared is " + (n * n));
     }
 }
