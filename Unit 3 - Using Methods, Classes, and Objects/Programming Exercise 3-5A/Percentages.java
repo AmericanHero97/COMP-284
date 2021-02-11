@@ -25,9 +25,9 @@ public class Percentages {
         double VariableTwo = 5.0;
 
         computePercent(VariableOne, VariableTwo);
+        computePercent(VariableTwo, VariableOne);
     }
     public static void computePercent(double x, double y) {
-        System.out.println(x + " is " + ((x * 100) / y) + " percent of " + y);
-        System.out.println(y + " is " + ((y * 100) / x) + " percent of " + x);
+        System.out.println(x + " is " + ((x / y) * 100) + " percent of " + y);
     }
 }
