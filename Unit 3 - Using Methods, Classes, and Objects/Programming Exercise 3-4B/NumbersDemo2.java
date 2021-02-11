@@ -19,9 +19,17 @@ Enter another integer >> 17
 
 */
 
+import java.util.Scanner;
+
 public class NumbersDemo2 {
    public static void main (String args[]) {
-      int num1 = 4, num2 = 33;
+      Scanner inputService = new Scanner(System.in);
+
+      System.out.println("Enter an integer >> ");
+      int num1 = inputService.nextInt();
+      System.out.println("Enter another integer >> ");
+      int num2 = inputService.nextInt();
+
       displayTwiceTheNumber(num1);
       displayNumberPlusFive(num1);
       displayNumberSquared(num1);
