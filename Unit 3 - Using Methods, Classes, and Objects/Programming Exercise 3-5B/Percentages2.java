@@ -15,15 +15,22 @@ Enter another double >> 5
 
 */
 
+import java.util.Scanner;
+
 public class Percentages2 {
    public static void main (String args[]) {
-      double num1 = 2.0, num2 = 5.0;
+      Scanner inputService = new Scanner(System.in);
+
+      System.out.println("Enter a double >> ");
+      double num1 = inputService.nextDouble();
+      System.out.println("Enter another double >> ");
+      double num2 = inputService.nextDouble();
+
       computePercent(num1, num2);
       computePercent(num2, num1);
    }
 
    public static void computePercent(double x, double y) {
-       // Modify the code below
        System.out.println(x + " is " + (x / y) * 100 + " percent of " + y);
    }
 }
