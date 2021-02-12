@@ -1,4 +1,4 @@
-// Lease.Java - Iakov Taranenko - 2/11/2021
+// TestLease.Java - Iakov Taranenko - 2/11/2021
 
 /* 
 
@@ -27,58 +27,52 @@ Term      : 4
 
 */
 
-class Lease {
-    private String name;
-    private int aptNumber;
-    private double rent;
-    private int term;
-    private static final int FEE = 10;
+import java.util.Scanner;
 
-    public Lease() {
-        setName("XXX");
-        setAptNumber(0);
-        setRent(1000);
-        setTerm(12);
-    }
+class TestLease {
+   public static void main (String args[]) {
+     Lease Tenant1 = new Lease();
+     Tenant1:getData();
+     showValues(Tenant1);
 
-    public void setName(String tenant) {
-        name = tenant;
-    }
+     Lease Tenant2 = new Lease();
+     Tenant2:getData();
+     showValues(Tenant2);
 
-    public void setAptNumber(int apt) {
-        aptNumber = apt;
-    }
+     Lease Tenant3 = new Lease();
+     Tenant3:getData();
+     showValues(Tenant3);
+     Tenant3.addPetFee();
+     showValues(Tenant3);
 
-    public void setRent(double monthRent) {
-        rent = monthRent;
-    }
+     Lease Tenant4 = new Lease();
+     showValues(Tenant4);
+   }
 
-    public void setTerm(int t) {
-        term = t;
-    }
+   public static void showValues(Lease Tenant) {
+      System.out.println("\n\nYour lease results:" +
+         "\nName      : " + Tenant.getName() +
+         "\nApartment : " + Tenant.getAptNumber() +
+         "\nRent      : " + Tenant.getRent() +
+         "\nTerm      : " + Tenant.getTerm());
+   }
 
-    public String getName() {
-        return name;
-    }
+   public static Lease getData() {
+     Scanner inputService = new Scanner(System.in);
+     Lease Tenant = new Lease();
 
-    public int getAptNumber() {
-        return aptNumber;
-    }
+     System.out.print("\nEnter lease name >> ");
+     Tenant.setName(inputService.nextLine());
 
-    public double getRent() {
-        return rent;
-    }
+     System.out.print("Enter apartment number >> ");
+     Tenant.setAptNumber(inputService.nextInt());
 
-    public int getTerm() {
-        return term;
-    }
+     System.out.print("Enter rent >> ");
+     Tenant.setRent(inputService.nextDouble());
 
-    public void addPetFee() {
-        rent = rent + FEE;
-        explainPetPolicy();
-    }
+     System.out.print("Enter lease term in months >> ");
+     Tenant.setTerm(inputService.nextInt());
 
-    public static void explainPetPolicy() {
-        System.out.println("\nA pet fee of $" + FEE + " is added to the monthly rent.");
-    }
+     return Tenant;
+   }
 }
