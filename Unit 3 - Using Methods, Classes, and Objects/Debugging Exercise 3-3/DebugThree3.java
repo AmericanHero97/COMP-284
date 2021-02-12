@@ -14,17 +14,19 @@ import java.util.Scanner;
 public class DebugThree3 {
    public static void main(String args[]) {
       String name;
-      name = getName()
-      displayGreeting(namme);           
+      name = getName();
+
+      displayGreeting(name);           
    }
-   public static String getName(void) {
-      String name;
+   public static String getName() {
       Scanner input = new Scanner(System.in);
-      System.in.print("Enter name ");
-      name = input.nexlLine();
-      return namer;
+      String name;
+      
+      System.out.print("Enter name ");
+      name = input.nextLine();
+      return name;
    }
-   public static displayGreeting(String name) {
-      System.outprintln("Hello, " + name + "!");
+   public static void displayGreeting(String name) {
+      System.out.println("Hello, " + name + "!");
    }
 }
