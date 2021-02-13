@@ -1,0 +1,51 @@
+Unit 3 Two Truths & A Lie
+
+1. Two of the following statements are true, and one is false. Identify the false statement and explain why it is false.
+	a. A method is usually written within another method. [CORRECT]
+	b. During one program execution, a method might be called any number of times.	
+	c. Any class can contain an unlimited number of methods.
+
+2. Identify the false statement and explain why it is false.
+	a. A method header is also called an implementation. [CORRECT]
+	b. When a method is declared with public access, methods in other classes can call it.	
+	c. Not all methods return a value, but every method requires a return type.
+
+3. Identify the false statement and explain why it is false.
+	a. A method header always contains a return type, an identifier, and a parameter list within parentheses. [CORRECT]	
+	b. A class can contain any number of methods, and each method can be called any number of times.	
+	c. Arguments are used in method calls; they are passed to parameters in method headers.
+
+4. Identify the false statement and explain why it is false.
+	a. The return type for a method can be any type used in Java, including int, double, and void.	
+	b. You cannot place a method within another method, but you can call a method from within another method.	
+	c. A method's declared return type must match the type of the value used in the parameter list. [CORRECT]
+
+5. Identify the false statement and explain why it is false.
+	a. An application or class that instantiates objects of another prewritten class is a class client.	
+	b. A class is an instantiation of many objects.	[CORRECT]
+	c. Objects gain their attributes and methods from their classes.
+
+6. Identify the false statement and explain why it is false.
+	a. Most fields in a class are private, and most methods are public.	
+	b. A class header contains an optional access specifier, the keyword class, and an identifier.	
+	c. When you instantiate objects, each has its own copy of each static data field in the class. [CORRECT]
+
+7. Identify the false statement and explain why it is false.
+	a. When you create a class from which objects will be instantiated, most methods are nonstatic because they are associated with individual objects.	
+	b. The keyword static is used with classwide methods, but not for methods that "belong" to objects.	
+	c. Static methods are instance methods.	[CORRECT]
+
+8. Identify the false statement and explain why it is false.
+	a. An object name is a reference; it holds a memory address.	
+	b. When you declare an object, you give it a name and set aside enough memory for the object to be stored. [CORRECT]
+	c. When you don't write a constructor for a class, Java creates one for you; the name of the constructor is always the same as the name of its class.
+
+9. Identify the false statement and explain why it is false.
+	a. The automatically supplied default constructor sets all numeric fields to 0, character fields to Unicode ' \u0000', Boolean fields to false, and fields that are object references to null.	
+	b. When you write a constructor, it must have the same name as the class it constructs, and it cannot have a return type.	
+	c. In Java, you cannot write a default constructor; it must be supplied for you automatically. [CORRECT]
+
+10. Identify the false statement and explain why it is false.
+	a. Unlike a primitive variable, an instantiated object cannot be passed into or returned from a method. [CORRECT]
+	b. When you declare a primitive variable or instantiate an object from a class, you provide both a type and an identifier.	
+	c. The address of an instantiated object can be assigned to a declared reference of the same type.	
