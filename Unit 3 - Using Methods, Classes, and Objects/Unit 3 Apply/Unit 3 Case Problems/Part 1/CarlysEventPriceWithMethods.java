@@ -14,3 +14,36 @@ Save the file as CarlysEventPriceWithMethods.java.
 
 */
 
+import java.util.Scanner;
+
+class CarlysEventPriceWithMethods {
+    public static int GetGuestsAttending() {
+        Scanner InputService = new Scanner(System.in);
+
+        System.out.print("Guests attending >> ");
+        int GuestsAttending = InputService.nextInt();
+
+        return GuestsAttending;
+    }
+
+    public static String GetEventNumber() {
+        Scanner InputService = new Scanner(System.in);
+
+        System.out.print("Event Number >> ");
+        String EventNumber = InputService.nextLine();
+
+        return EventNumber;
+    }
+
+    public static void DisplayMotto() {
+        System.out.println("*************************************************");
+        System.out.println("* Carly’s makes the food that makes it a party. *");
+        System.out.println("*************************************************");
+    }
+
+    public static void CalculateParty(Event Event) {
+        System.out.println("Guests attending: " + Event.getGuestsAttending());
+        System.out.println("Total price: $" + Event.getTotalPrice());
+        System.out.println("Is this a large event? " + (Event.getGuestsAttending() >= 50) + "!");
+    }
+}

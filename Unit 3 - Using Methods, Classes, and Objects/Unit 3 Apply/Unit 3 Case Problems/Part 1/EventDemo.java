@@ -14,3 +14,13 @@ Save the program as EventDemo.java.
 
 */
 
+class EventDemo {
+    public static void main(String[] args) {
+        Event Event = new Event();
+        Event.setEventNumber(CarlysEventPriceWithMethods.GetEventNumber());
+        Event.setGuestsAttending(CarlysEventPriceWithMethods.GetGuestsAttending());
+
+        CarlysEventPriceWithMethods.DisplayMotto();
+        CarlysEventPriceWithMethods.CalculateParty(Event);
+    }
+}

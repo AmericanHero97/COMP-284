@@ -14,3 +14,32 @@ Three public get methods that return the values in the three nonstatic fields.
 
 */
 
+class Event {
+    private final int PRICE_PER_GUEST = 35;
+    private final int LARGE_PARTY_MIN = 50;
+    private String EventNumber;
+    private int GuestsAttending;
+    private double TotalPrice;
+
+    public void setEventNumber(String NewEventNumber) {
+        EventNumber = NewEventNumber;
+    }
+
+    public void setGuestsAttending(int NewGuestsAttending) {
+        GuestsAttending = NewGuestsAttending;
+
+        TotalPrice = GuestsAttending * PRICE_PER_GUEST;
+    }
+
+    public String getEventNumber() {
+        return EventNumber;
+    }
+
+    public int getGuestsAttending() {
+        return GuestsAttending;
+    }
+
+    public double getTotalPrice() {
+        return TotalPrice;
+    }
+}
