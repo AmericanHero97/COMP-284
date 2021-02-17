@@ -1,0 +1,115 @@
+Unit 3 Reviewing the Basics Quiz
+
+1. The method with the declaration public static int aMethod(double d) is a method type of ____________.
+    You cannot determine the method type.
+    static
+    double
+    int [CORRECT]
+
+2. The method public static boolean testValue(int response) returns ____________.
+    no value
+    an int value
+    a boolean value [CORRECT]
+    You cannot determine what is returned.
+
+3. You send messages or information to an object through its ____________.
+    methods [CORRECT]
+    fields
+    classes
+    type
+
+4. Which of the following could be the last legally coded line of a method declared as public static int getVal(double sum)?
+    return 2.3;
+    return 77; [CORRECT]
+    Any of these could be the last coded line of the method.
+    return;
+
+5. A program or class that instantiates objects of another prewritten class is a(n) ____________.
+    object
+    class client [CORRECT]
+    superclass
+    patron
+
+6. You cannot place a method within another method.
+    True [CORRECT]
+    False
+
+7. A public static method named computeSum() is located in ClassA. To call the method from within ClassB, use the statement ____________.
+    ClassA.computeSum(); [CORRECT]
+    ClassB(computeSum());
+    You cannot call computeSum() from within ClassB.
+    ComputeSum(ClassA);
+
+8. Suppose you declare an object as Book myJournal;. Before you store data in myJournal, you ____________.
+    also must explicitly allocate memory for it [CORRECT]
+    need not explicitly allocate memory for it
+    must explicitly allocate memory for it only if it has a constructor
+    can declare it to use no memory
+
+9. Which of the following method declarations is correct for a static method named displayFacts() if the method receives an int argument?
+    Two of these are correct.
+    public static void displayFacts(int data) [CORRECT]
+    public static int displayFacts()
+    public void displayFacts(int data)
+
+10. Most class data fields are ____________.
+    final
+    public
+    static
+    private [CORRECT]
+
+11. The nonstatic data components of a class often are referred to as the ____________ of that class.
+    instance variables [CORRECT]
+    objects
+    methods
+    access types
+
+12. A method is declared as public static void showResults(double d, int i) Which of the following is a correct method call?
+    Two of these are correct.
+    showResults(4, 99.7);
+    showResults(12.2, 67); [CORRECT]
+    showResults(double d, int i);
+
+13. The concept of allowing a class's private data to be changed only by a class's own methods is known as ____________.
+    structured logic
+    information hiding [CORRECT]
+    object orientation
+    data masking
+
+14. The method with the declaration public static char procedure(double d) has a method type of char.
+    True [CORRECT]
+    False
+
+15. All method declarations contain ____________.
+    arguments
+    the keyword static
+    parentheses [CORRECT]
+    one or more explicitly named access specifiers
+
+16. If you use the automatically-supplied default constructor when you create an object, ____________.
+    character fields are set to blank
+    Boolean fields are set to true
+    numeric fields are set to 0 (zero) [CORRECT]
+    All of these are true.
+
+17. The body of a class is always written ____________.
+    as a method call
+    between curly braces [CORRECT]
+    within parentheses
+    in a single line, as the first statement in a class
+
+18. An object's data items are also known as ____________.
+    instances
+    themes
+    fields [CORRECT]
+    functions
+
+19. If a class is named Student, the class constructor name is Student().
+    True [CORRECT]
+    False
+
+20. Which of the following is a correct call to a method declared as public static void aMethod(char code)?
+    aMethod('Q'); [CORRECT]
+    void aMethod();
+    void aMethod('V');
+    aMethod(char 'M');
