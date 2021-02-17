@@ -1,4 +1,4 @@
-// PickTwoCards.Java - Iakov Taranenko - 2/10/2021
+// Card.Java - Iakov Taranenko - 2/10/2021
 
 /* 
 
@@ -21,3 +21,23 @@ Create a zip file of the .java file(s) and submit the assignment.
 
 */
 
+class Card {
+    private char Suit;
+    private int Number;
+
+    public void setNumber(int NewNumber) {
+        Number = NewNumber;
+    }
+
+    public void setSuit(char NewSuit) {
+        Suit = NewSuit;
+    }
+
+    public int getNumber() {
+        return Number;
+    }
+
+    public char getSuit() {
+        return Suit;
+    } 
+}

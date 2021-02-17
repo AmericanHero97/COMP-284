@@ -1,4 +1,4 @@
-// Card.Java - Iakov Taranenko - 2/10/2021
+// PickTwoCards.Java - Iakov Taranenko - 2/10/2021
 
 /* 
 
@@ -21,3 +21,24 @@ Create a zip file of the .java file(s) and submit the assignment.
 
 */
 
+class PickTwoCards {
+    public static void main(String[] args) { 
+        final int CARDS_IN_SUIT = 13;
+        int myValue1 = ((int)(Math.random() * 100) % CARDS_IN_SUIT + 1);
+        int myValue2 = ((int)(Math.random() * 100) % CARDS_IN_SUIT + 1);
+
+        Card Card1 = new Card();
+        Card1.setNumber(myValue1);
+        Card1.setSuit('h');
+        System.out.println("\nFirst card:" +
+            "\n Suit: " + Card1.getSuit() +
+            "\n Number: " + Card1.getNumber());
+
+        Card Card2 = new Card();
+        Card2.setNumber(myValue2);
+        Card2.setSuit('d');
+        System.out.println("\nSecond card:" +
+            "\n Suit: " + Card2.getSuit() +
+            "\n Number: " + Card2.getNumber());
+    }
+}
