@@ -1,4 +1,4 @@
-// MyCharacter.Java - Iakov Taranenko - 2/10/2021
+// MyCharacter.Java - Iakov Taranenko - 2/16/2021
 
 /* 
 
@@ -11,3 +11,60 @@ Create a zip file of the .java file(s) and submit the assignment.
 
 */
 
+class MyCharacter {
+    private String Name;
+    private String Tribe;
+    private char Rank;
+
+    private int Health;
+    private int Armour;
+    private int Damage;
+
+    public void setName(String NewName) {
+        Name = NewName;
+    }
+
+    public void setTribe(String NewTribe) {
+        Tribe = NewTribe;
+    }
+
+    public void setRank(char NewRank) {
+        Rank = NewRank;
+    }
+
+    public void setHealth(int NewHealth) {
+        Health = NewHealth;
+    }
+
+    public void setArmour(int NewArmour) {
+        Armour = NewArmour;
+    }
+
+    public void setDamage(int NewDamage) {
+        Damage = NewDamage;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public String getTribe() {
+        return Tribe;
+    }
+
+    public char getRank() {
+        return Rank;
+    }
+
+    public int getHealth() {
+        return Health;
+    }
+
+    public int getArmour() {
+        return Armour;
+    }
+
+    public int getDamage() {
+        return Damage;
+    }
+}
