@@ -14,3 +14,41 @@ Save the file as SammysRentalPriceWithMethods.java.
 
 */
 
+import java.util.Scanner;
+
+class SammysRentalPriceWithMethods {
+    public static void main(String[] args) {
+        int minutes;
+
+        minutes = getMinutes();
+        RentalDemo.displayMotto();
+        displayDetails(minutes);
+    }
+
+    public static int getMinutes() {
+        Scanner InputService = new Scanner(System.in);
+
+        int minutes;
+        minutes = InputService.nextInt();
+
+        return minutes;
+    }
+
+    public static void displayDetails(int minutes) {
+        final int MINS_PER_HOUR = 60;
+        final int PRICE_PER_HOUR = 40;
+    
+        int hours;
+        int extraMinutes;
+        double totalPrice;
+
+        hours = minutes / MINS_PER_HOUR;
+        extraMinutes = minutes % MINS_PER_HOUR;
+        totalPrice = hours * PRICE_PER_HOUR + extraMinutes;
+
+        System.out.println("Your order: "
+            + "\n Hours: " + hours
+            + "\n Minutes: " + extraMinutes
+            + "\n Total Price: $" + totalPrice);
+    }
+}

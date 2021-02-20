@@ -13,4 +13,55 @@ c. Use the SammysRentalPriceWithMethods class you created in Step 2a as a starti
 Save the program as RentalDemo.java.
 
 */
+import java.util.Scanner;
 
+class RentalDemo {
+    public static void main(String[] args) {
+        String contractNumber;
+        int minutes;
+
+        Rental Rental = new Rental();
+        contractNumber = getContractNumber();
+        minutes = getMinutes();
+
+        Rental.setContractNumber(contractNumber);
+        Rental.setTime(minutes);
+
+        displayDetails(Rental);
+    }
+
+    public static String getContractNumber() {
+        Scanner InputService = new Scanner(System.in);
+
+        String contractNumber;
+        System.out.print("Enter contract number >> ");
+        contractNumber = InputService.nextLine();
+
+        return contractNumber;
+    }
+
+    public static int getMinutes() {
+        Scanner InputService = new Scanner(System.in);
+
+        int minutes;
+        System.out.print("Enter minutes >> ");
+        minutes = InputService.nextInt();
+
+        return minutes;
+    }
+
+    public static void displayDetails(Rental Rental) {
+        System.out.println("Your order details: "
+            + "\n Contract Number: " + Rental.getContractNumber()
+            + "\n Hours: " + Rental.getHours()
+            + "\n Minutes: " + Rental.getExtraMinutes()
+            + "\n Hourly Rate of: $" + Rental.PRICE_PER_HOUR
+            + "\n Total Price: $" + Rental.getTotalprice());
+    }
+
+    public static void displayMotto() {
+        System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
+        System.out.println("S Sammy’s makes it fun in the sun. S");
+        System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
+    }
+}

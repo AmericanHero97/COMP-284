@@ -15,3 +15,39 @@ Save the file as Rental.java.
 
 */
 
+class Rental {
+    public final int MINS_PER_HOUR = 60;
+    public final double PRICE_PER_HOUR = 40;
+
+    private String contractNumber;
+    private int hours;
+    private int extraMinutes;
+    private double totalPrice;
+
+    public void setContractNumber(String newContractNumber) {
+        contractNumber = newContractNumber;
+    }
+
+    public void setTime(int givenMinutes) {
+        hours = givenMinutes / MINS_PER_HOUR;
+        extraMinutes = givenMinutes % MINS_PER_HOUR;
+
+        totalPrice = hours * PRICE_PER_HOUR + extraMinutes;
+    }
+
+    public String getContractNumber() {
+        return contractNumber;
+    }
+
+    public int getHours() {
+        return hours;
+    }
+
+    public int getExtraMinutes() {
+        return extraMinutes;
+    }
+
+    public double getTotalprice() {
+        return totalPrice;
+    }
+}
