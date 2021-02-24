@@ -1,0 +1,115 @@
+Unit 4 Reviewing the Basics Quiz
+
+1. Methods that you reference with individual objects are _____________.
+	public
+	nonstatic [CORRECT]
+	static
+	private
+
+2.T he keyword final used with a variable declaration indicates a static field.
+	True
+	False [CORRECT]
+
+3. A constructor _____________ parameters.
+    must receive
+    can receive [CORRECT]
+    cannot receive
+    can receive a maximum of 10
+
+4. You can declare variables with the same name multiple times _____________.
+    You never can declare multiple variables with the same name.
+    within a method [CORRECT]
+    within a block
+    within a statement
+
+5. Which of the following expressions correctly returns an integer that represents the month of a LocalDate object named hireDate?
+    hireDate.getMonthValue() [CORRECT]
+    getMonth(hireDate)
+    getMonthValue(hireDate)
+    all of the above
+
+6. Variables that are shared by every instantiation of a class are _____________.
+    class variables [CORRECT]
+    illegal
+    private variables
+    public variables
+
+7. Which of the following statements determines the square root of a number and assigns it to the variable s ?
+    s = sqrt(number);
+    number = sqrt(s);
+    number = Math.sqrt(s);
+    s = Math.sqrt(number); [CORRECT]
+
+8. Java classes are stored in a folder or _____________.
+    package [CORRECT]
+    bundle
+    packet
+    gaggle
+
+9. The code between a pair of curly braces in a method is called a block.
+    True [CORRECT]
+    False
+
+10. Usually, you want each instantiation of a class to have its own copy of the data fields.
+    True [CORRECT]
+    False
+
+11. A constructor _____________ overloaded.
+    can be [CORRECT]
+    must be
+    is always automatically
+    cannot be
+
+12. A LocalDate object _____________.
+    can be displayed as a String [CORRECT]
+    contains static fields with data such as the current year
+    is created using a public default constructor
+    all of the above
+
+13. If a method is written to receive a double parameter, and you pass an integer to the method, then the method will _____________.
+    work correctly; the integer will be promoted to a double [CORRECT]
+    not work; an error message will be issued
+    execute, but any output will be incorrect
+    work correctly; the parameter type will automatically become an integer
+
+14. The this reference _____________.
+    must not be used
+    must be used implicitly
+    must not be used implicitly
+    can be used implicitly [CORRECT]
+
+15. If you declare a variable as an instance variable within a class, and you declare and use the same variable name within a method of the class, then within the method, _____________.
+    an error will occur
+    the two variables refer to a single memory address
+    the variable used inside the method takes precedence [CORRECT]
+    the class instance variable takes precedence
+
+16. Nonambiguous, overloaded methods must have the same _____________.
+    parameter names
+    types of parameters
+    name [CORRECT]
+    number of parameters
+
+17. The portion of a program within which you can reference a variable is the variable's _____________.
+    scope [CORRECT]
+    domain
+    space
+    range
+
+18. A method variable _____________ a class variable with the same name.
+    alters
+    overrides [CORRECT]
+    destroys
+    acquiesces to
+
+19. When a block exists within another block, the blocks are _____________.
+    nested [CORRECT]
+    illegal
+    sheltered
+    structured
+
+20. If you create a class that contains one method, and instantiate two objects, you usually store _____________ for use with the objects.
+    one copy of the method [CORRECT]
+    data only (the methods are not stored)
+    two copies of the method
+    two different methods containing two different this references
