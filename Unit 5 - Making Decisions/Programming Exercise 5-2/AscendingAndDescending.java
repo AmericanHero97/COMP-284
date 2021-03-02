@@ -42,7 +42,7 @@ public class AscendingAndDescending {
             }
         } else {
                 if(intTwo <= intOne && intTwo <= intThree) {
-                 low = intTwo;
+                low = intTwo;
 
                 if(intOne <= intThree) {
                     mid = intOne;
