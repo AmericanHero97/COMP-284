@@ -6,7 +6,7 @@ Unit 4 Reviewing the Basics Quiz
 	static
 	private
 
-2.T he keyword final used with a variable declaration indicates a static field.
+2. The keyword final used with a variable declaration indicates a static field.
 	True
 	False [CORRECT]
 
