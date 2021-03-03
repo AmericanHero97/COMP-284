@@ -1,0 +1,44 @@
+Unit 4 Two Truths & A Lie
+
+1. Two of the following statements are true, and one is false. Identify the false statement and explain why it is false.
+	a. You cannot declare the same variable name more than once within a block, even if a block contains other blocks.	
+	b. A variable ceases to exist, or goes out of scope, at the end of the block in which it is declared.	
+	c. A class's instance variables override locally declared variables with the same names that are declared within the class's methods. [CORRECT]
+
+2. Identify the false statement and explain why it is false.
+	a. Instead of overloading methods, it is preferable to write methods with unique identifiers. [CORRECT]
+	b. When you overload Java methods, you write multiple methods with a shared name.	
+	c. When you overload Java methods, the methods are called using different arguments.
+
+3. dentify the false statement and explain why it is false.
+	a. When it is part of the same program as void myMethod(int age, String name), the following method would be ambiguous: [CORRECT]
+		void myMethod(String name, int age)	
+	b. When it is part of the same program as void myMethod(int age, String name), the following method would be ambiguous:
+		String myMethod(int zipCode, String address)
+	c. When it is part of the same program as void myMethod(int age, String name), the following method would be ambiguous:
+		void myMethod(int x, String y)
+
+4. Identify the false statement and explain why it is false.
+	a. When you write a constructor, it can be written to receive parameters or not.	
+	b. If a class's only constructor requires an argument, you must provide an argument for every object of the class that you create.	
+	c. A default constructor is one that is created automatically. [CORRECT]
+
+5. Identify the false statement and explain why it is false.
+	a. Usually, you want each instantiation of a class to have its own nonstatic data fields, but each object does not need its own copy of most methods.	
+	b. The this reference is supplied automatically in classes; you cannot use it explicitly. [CORRECT]
+	c. When you use a nonstatic method, the compiler accesses the correct object's field because you implicitly pass an object reference to the method.
+
+6. Identify the false statement and explain why it is false.
+	a. Methods declared as static are called class methods.	
+	b. A final static field's value is shared by every object of a class.	
+	c. Methods declared as static receive a this reference that contains a reference to the object associated with them. [CORRECT]
+
+7. Identify the false statement and explain why it is false.
+	a. Java packages are available only if you explicitly name them within your program. [CORRECT]
+	b. The creators of Java have produced hundreds of classes for you to use in your programs.	
+	c. The implicitly imported java.lang package contains fundamental Java classes.
+
+8. Identify the false statement and explain why it is false.
+	a. A nested class resides within another class.	
+	b. Exposition describes the relationship between classes when an object of one class is a data field within another class. [CORRECT] 
+	c. When you use an object as a data member of another object, you must remember to supply values for the contained object if it has no default constructor.
