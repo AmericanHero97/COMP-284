@@ -1,0 +1,142 @@
+Unit 5 Reviewing the Basics Quiz
+
+1. In Java, decisions are based on a Boolean value.
+    True [CORRECT]
+    False
+
+2. Assuming a variable f has been initialized to 5, which of the following statements sets g to 0?
+    if(f < 3 || f > 4) g = 0;
+    All of the above statements set g to 0. [CORRECT]
+    if(f > 6 || f == 5) g = 0;
+    if(f >= 0 || f < 2) g = 0;
+
+3. The logical structure in which one instruction o[CORRECT]urs after another with no branching is a ____________.
+    sequence [CORRECT]
+    selection
+    case
+    loop
+
+4. The operator that combines two conditions into a single Boolean value that is true only when both of the conditions are true is ____________.
+    $$
+    ||
+    !!
+    && [CORRECT]
+
+5. Which of the following is typically used in a flowchart to indicate a decision?
+    diamond [CORRECT]
+    rectangle
+    square
+    oval
+
+6. Assuming a variable w has been assigned the value 15, what does the following statement do?
+w == 15 ? x = 2 : x = 0;
+    nothing
+    assigns 0 to x
+    assigns 15 to w
+    assigns 2 to x [CORRECT]
+
+7. What is the output of the following code segment?
+t = 0;
+if(t > 7)
+    System.out.print("AAA");
+    System.out.print("BBB");
+
+    AAABBB
+    BBB [CORRECT]
+    nothing
+    AAA
+
+8. What is the output of the following code segment?
+t = 7;
+if(t > 7)
+{
+   System.out.print("AAA");
+   System.out.print("BBB");
+}
+
+    AAABBB
+    AAA
+    nothing [CORRECT]
+    BBB
+
+9. Assuming a variable y has been assigned the value 6, the value of !(y < 7) is ____________.
+    false [CORRECT]
+    true
+    7
+    6
+
+10. The operator that combines two conditions into a single Boolean value that is true when at least one of the conditions is true is ____________.
+    $$
+    !!
+    &&
+    || [CORRECT]
+
+11. There are three types of if statements: single-alternative, dual-alternative, and reverse.
+    True
+    False [CORRECT]
+
+12. When you code an if statement within another if statement, the statements are nested.
+    True [CORRECT]
+    False
+
+13. You can use the exit statement to terminate a switch statement.
+    True
+    False [CORRECT]
+
+14. Which of the following statements correctly outputs the names of voters who live in district 6 and all voters who live in district 7?
+    if(district == 6 || district == 7) [CORRECT]
+        System.out.println("Name is " + name);
+    two of these
+    if(district = 6 && district == 7)
+        System.out.println("Name is " + name);
+    if(district == 6 || 7)
+        System.out.println("Name is " + name);
+
+15. Which of the following cannot be the argument tested in a switch statement?
+    double [CORRECT]
+    char
+    String
+    int
+
+16. In Java, the value of (14 > 7) is ____________.
+    14
+    true [CORRECT]
+    7
+    false
+
+17. Assuming the variable score has been assigned the value 9, which of the following statements displays XXX?
+    if(score > 0); System.out.println("XXX");
+    All of the above display XXX. [CORRECT]
+    if(score <= 9) System.out.println("XXX");
+    if(score > 9); System.out.println("XXX");
+
+18. hich of the following has the lowest precedence?
+    &&
+    || [CORRECT]
+    <
+    ==
+
+19. Which of the following displays Error when a student ID is less than 1000 or more than 9999?
+    if(stuId < 1000) [CORRECT]
+        System.out.println("Error");
+    else
+        if(stuId > 9999)
+            System.out.println("Error");
+    if(stuId < 1000 && stuId > 9999)
+        System.out.println("Error");
+    Two of these are correct.
+    if(stuId < 1000) if(stuId > 9999)
+        System.out.println("Error");
+
+20. What is the output of the following code segment?
+t = 10;
+if(t > 7)
+{
+   System.out.print("AAA");
+   System.out.print("BBB");
+}
+
+    nothing
+    BBB
+    AAA
+    AAABBB [CORRECT]
