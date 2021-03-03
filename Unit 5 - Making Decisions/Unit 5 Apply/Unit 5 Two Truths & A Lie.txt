@@ -1,44 +1,49 @@
-Unit 4 Two Truths & A Lie
+Unit 5 Two Truths & A Lie
 
 1. Two of the following statements are true, and one is false. Identify the false statement and explain why it is false.
-	a. You cannot declare the same variable name more than once within a block, even if a block contains other blocks.	
-	b. A variable ceases to exist, or goes out of scope, at the end of the block in which it is declared.	
-	c. A class's instance variables override locally declared variables with the same names that are declared within the class's methods. [CORRECT]
+	a. In a sequence structure, one step follows another unconditionally.	
+	b. Pseudocode and flowcharts are both tools that are used to check the syntax of computer programs.	[CORRECT]
+	c. In a decision structure, alternative courses of action are chosen based on a Boolean value.	
 
 2. Identify the false statement and explain why it is false.
-	a. Instead of overloading methods, it is preferable to write methods with unique identifiers. [CORRECT]
-	b. When you overload Java methods, you write multiple methods with a shared name.	
-	c. When you overload Java methods, the methods are called using different arguments.
+	a. In a Java if statement, the keyword if is followed by a Boolean expression within parentheses.	
+	b. In a Java if statement, a semicolon follows the Boolean expression. [CORRECT]
+	c. When determining equivalency in Java, you use a double equal sign.
 
-3. dentify the false statement and explain why it is false.
-	a. When it is part of the same program as void myMethod(int age, String name), the following method would be ambiguous: [CORRECT]
-		void myMethod(String name, int age)	
-	b. When it is part of the same program as void myMethod(int age, String name), the following method would be ambiguous:
-		String myMethod(int zipCode, String address)
-	c. When it is part of the same program as void myMethod(int age, String name), the following method would be ambiguous:
-		void myMethod(int x, String y)
+3. Identify the false statement and explain why it is false.
+	a. Indentation can be used to cause statements following an if statement to depend on the evaluation of the Boolean expression. [CORRECT]
+	b. To execute more than one statement that depends on the evaluation of a Boolean expression, you use a pair of curly braces to place the dependent statements within a block.	
+	c. When you declare a variable within a block, it is local to that block.	
 
 4. Identify the false statement and explain why it is false.
-	a. When you write a constructor, it can be written to receive parameters or not.	
-	b. If a class's only constructor requires an argument, you must provide an argument for every object of the class that you create.	
-	c. A default constructor is one that is created automatically. [CORRECT]
+	a. When one if statement follows another, the first else clause encountered is paired with the first if that occurred before it. [CORRECT]
+	b. A complete nested if…else statement always fits entirely within either the if c portion or the else portion of its outer if…else statement.	
+	c. Statements in which an if statement is contained inside another if statement commonly are called nested if statements.
 
 5. Identify the false statement and explain why it is false.
-	a. Usually, you want each instantiation of a class to have its own nonstatic data fields, but each object does not need its own copy of most methods.	
-	b. The this reference is supplied automatically in classes; you cannot use it explicitly. [CORRECT]
-	c. When you use a nonstatic method, the compiler accesses the correct object's field because you implicitly pass an object reference to the method.
+	a. The AND operator is written as two ampersands ( &&), and the OR operator is written as two pipes ( || ).	
+	b. Whether you use an && or || operator, both Boolean expressions are tested in order from left to right. [CORRECT]
+	c. When you use the && and || operators, you must include a complete Boolean expression on each side.
 
 6. Identify the false statement and explain why it is false.
-	a. Methods declared as static are called class methods.	
-	b. A final static field's value is shared by every object of a class.	
-	c. Methods declared as static receive a this reference that contains a reference to the object associated with them. [CORRECT]
+	a. The statement if(payRate < 6.00 && payRate > 50.00) can be used to select payRate values that are higher or lower than the specified limits. [CORRECT]
+	b. When you must make a series of decisions in a program, it is most efficient to first ask the question that is most likely to be true.	
+	c. A range check is a series of statements that determine within which of a set of ranges a value falls.	
 
 7. Identify the false statement and explain why it is false.
-	a. Java packages are available only if you explicitly name them within your program. [CORRECT]
-	b. The creators of Java have produced hundreds of classes for you to use in your programs.	
-	c. The implicitly imported java.lang package contains fundamental Java classes.
+	a. A break statement bypasses the rest of its switch statement, and execution continues with any statement after the closing curly brace of the switch statement.	
+	b. The switch statement is useful when you need to test a single variable against a series of exact integer or character values.	
+	c. When you must make more decisions than Java can support, you use a switch statement instead of nested if…else statements. [CORRECT]
 
 8. Identify the false statement and explain why it is false.
-	a. A nested class resides within another class.	
-	b. Exposition describes the relationship between classes when an object of one class is a data field within another class. [CORRECT] 
-	c. When you use an object as a data member of another object, you must remember to supply values for the contained object if it has no default constructor.
+	a. The value of any false expression becomes true when preceded by the NOT operator.	
+	b. The NOT operator is written as the exclamation point ( ! ). 
+	c. The conditional operator is used as an abbreviated version of the if…else statement and requires two expressions separated with an exclamation point. [CORRECT]
+
+9. Identify the false statement and explain why it is false.
+	a. Assume p, q, and r are all Boolean variables that have been assigned the value true. After the following statement executes, the value of p is still true. [CORRECT]
+		p = !(q || !r);	
+	b. Assume p, q, and r are all Boolean variables that have been assigned the value true. After the following statement executes, the value of p is still true.
+		p = !(!q && !r);	
+	c. Assume p, q, and r are all Boolean variables that have been assigned the value true. After the following statement executes, the value of p is still true.
+		p = !q || r;
