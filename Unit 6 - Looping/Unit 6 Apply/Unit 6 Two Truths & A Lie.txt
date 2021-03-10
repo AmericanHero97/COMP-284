@@ -1,0 +1,39 @@
+Unit 6 Two Truths & A Lie
+
+1. Two of the following statements are true, and one is false. Identify the false statement and explain why it is false.
+	a. A loop is a structure that allows repeated execution of a block of statements as long as a tested expression is true.	
+	b. If a loop's tested Boolean expression is true, a block of statements called the loop body executes before the Boolean expression is evaluated again.	
+	c. When the Boolean evaluation tested in a loop becomes false, the loop body executes one last time. CC
+
+2. Identify the false statement and explain why it is false.
+	a. A finite loop executes a specific number of times; an indefinite loop is one that never ends. CC	
+	b. A well-written while loop contains an initialized loop control variable that is tested in the while expression and then altered in the loop body.	
+	c. In an indefinite loop, you don't know how many times the loop will occur
+
+3. Identify the false statement and explain why it is false.
+	a. Assume that x = 4 and y = 5. The value of y += x is 9.	
+	b. Assume that x = 4 and y = 5. The value of ++y + ++x is 11.	
+	c. Assume that x = 4 and y = 5. The value of y == x++ is true. CC
+
+4. Identify the false statement and explain why it is false.
+	a. Within the parentheses of a for loop, the last section must alter the loop control variable. CC
+	b. The body of a for loop might never execute.	
+	c. A for loop must always contain two semicolons within its parentheses.
+
+5. Identify the false statement and explain why it is false.
+	a. When the body of a do…while loop contains a single statement, you do not need to use curly braces to block the statement.	
+	b. When the statements in a loop body must execute at least one time, it is convenient to use a do…while loop.	
+	c. The do…while loop checks the value of the loop control variable at the top of the loop prior to loop execution. CC
+
+6. Identify the false statement and explain why it is false.
+	a. The body of the following loop executes 20 times:
+		for(int x = 0; x < 4; ++x)
+		for(int y = 0; y < 5; ++y)
+		System.out.println("Hi");	
+	b. You can place a while loop within a while loop or a for loop within a for loop, but you cannot mix loop types. CC
+	c. An inner nested loop must be entirely contained within its outer loop.
+
+7. Identify the false statement and explain why it is false.
+	a. You can improve loop performance when two conditions must both be true by testing for the most likely occurrence first. CC	
+	b. You can improve loop performance by making sure the loop does not include unnecessary operations in the body of the loop.	
+	c. You can improve the performance of a loop by making sure the loop does not include unnecessary operations in the tested expression.
