@@ -1,0 +1,135 @@
+Unit 8 Reviewing the Basics Quiz
+
+1. If you declare an array as follows, how do you indicate the final element of the array?
+int[] num = new int[6];
+
+	num[5] [CORRECT]
+	num[0]
+	impossible to tell
+	num[6]
+
+2. If you declare an integer array as follows, what is the value of num[2] ?
+int[] num = {101, 202, 303, 404, 505, 606};
+
+	303 [CORRECT]
+	202
+	impossible to tell
+	101
+
+3. When you initialize an array by giving it values upon creation, you ____________.
+
+	must make certain each value is different from the others
+	must make all the values zero, blank, or false
+	do not explicitly give the array a size [CORRECT]
+	also must give the array a size explicitly
+
+4. You reserve memory locations for an array when you use the keyword memAlloc.
+
+	True
+	False [CORRECT]
+
+5. When you pass an array to a method, the method receives ____________.
+
+	the address of the array [CORRECT]
+	a copy of the first element in the array
+	a copy of the array
+	nothing
+
+6. In Java, you can declare an array of 12 elements and initialize some of them.
+
+	True
+	False [CORRECT]
+
+7. When you declare an array, ____________.
+
+	you cannot reserve memory for it in the same statement
+	you always reserve memory for it in the same statement
+	the ability to reserve memory for it in the same statement depends on the type of the array
+	you might reserve memory for it in the same statement [CORRECT]
+
+8. If a method should return an array to its calling method, ____________.
+
+	the return type in the method header is followed by square brackets [CORRECT]
+	the return type in the method header is preceded by an ampersand
+	the method's return type must match its parameter type
+	A Java method cannot return an array.
+
+9. Which of the following can be used as an array subscript?
+
+	double
+	char
+	int [CORRECT]
+	String
+
+10. When you pass an array element to a method, the method receives a copy of the value in the element.
+
+	True [CORRECT]
+	False
+
+11. Array names represent ____________.
+
+	allusions
+	references [CORRECT]
+	functions
+	values
+
+12. Assume an array is declared as follows. Which of the following statements correctly assigns the value 100 to each of the array elements?
+int[] num = new int[4];
+
+	for(x = 1; x < 5; ++x) num[x] = 100;
+	for(x = 0; x < 4; ++x) num[x] = 100; [CORRECT]
+	for(x = 0; x < 3; ++x) num[x] = 100;
+	for(x = 1; x < 4; ++x) num[x] = 100;
+
+13. A single array element of a primitive type is passed to a method by ____________.
+
+	osmosis
+	reference
+	value [CORRECT]
+	address
+
+14. A parallel array is one that is placed adjacent to another array in code.
+
+	True
+	False [CORRECT]
+
+15. Unicode value \u0000 is also known as null.
+
+	True [CORRECT]
+	False
+
+16. If a class named Student contains a method setID() that takes an int argument and you write an application in which you create an array of 20 Student objects named scholar, which of the following statements correctly assigns an ID number to the first Student scholar?
+
+	Student[0].setID(1234);
+	scholar[0].setID(1234); [CORRECT]
+	Student.setID[0](1234);
+	scholar.setID[0](1234);
+
+17. For how many integers does the following statement reserve room?
+int[] value = new int[34];
+
+	33
+	35
+	34 [CORRECT]
+	0
+
+18. In which of the following situations would setting up parallel arrays be most useful?
+
+	You need to determine the shortest distance between two points on a map.
+	You need to store a list of 20 commonly misspelled words.
+	You need to look up an employee's ID number to find the employee's last name. [CORRECT]
+	You need to calculate interest earned on a savings account balance.
+
+19. Suppose you have declared an array as follows:
+int[] creditScores = {670, 720, 815};
+What is the value of creditScores.length?
+
+	3 [CORRECT]
+	2
+	0
+	1
+
+20. An array is a list of data items that all have the same type.
+
+	True [CORRECT]
+	False
