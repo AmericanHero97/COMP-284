@@ -1,0 +1,32 @@
+Unit 8 Two Truths & A Lie
+
+1. Two of the following statements are true, and one is false. Identify the false statement and explain why it is false.
+	a. The statement int[] idNums = new int[35]; reserves enough memory for exactly 34 integers. [CORRECT]
+	b. The first element in any array has a subscript of 0, no matter what data type is stored.	
+	c. In Java, you can use a variable as well as a constant to declare an array's size.	
+
+2. Identify the false statement and explain why it is false.
+	a. When you declare int[] scores = {100, 90, 80};, the first three elements of the array are assigned the values listed, but all the remaining elements are assigned 0.	[CORRECT]
+	b. When you declare int[] idNums = new int[35];, each element of the array has a value of 0.	
+	c. When you declare double[] salaries = new double[10];, each element of the array has a value of 0.0.
+
+3. Identify the false statement and explain why it is false.
+	a. When an application contains an array, it is common to perform loops that vary the loop control variable from 0 to one less than the size of the array.	
+	b. An array's length field contains the highest value that can be used as the array's subscript. [CORRECT]
+	c. The enhanced for loop allows you to cycle through an array without specifying the starting and ending points for the loop control variable.	
+
+4. Identify the false statement and explain why it is false.
+	a. When a class has a default constructor and you create an array of objects from the class, you do not need to call the constructor explicitly. [CORRECT]
+	b. The following statement declares an array named students that holds 10 Student objects:
+		Student[] students = new Student[10];	
+	c. To use a method that belongs to an object that is part of an array, you insert the appropriate subscript notation after the array name and before the dot that precedes the method name.
+
+5. Identify the false statement and explain why it is false.
+	a. In a range match, you commonly compare a value to the midpoint of each of a series of numerical ranges. [CORRECT]
+	b. A parallel array is one with the same number of elements as another, and for which the values in corresponding elements are related.	
+	c. When searching an array, it is usually most efficient to abandon the search as soon as the sought-after element is found.
+
+6. Identify the false statement and explain why it is false.
+	a. When a method returns an array reference, you include square brackets with the return type in the method header.	
+	b. You pass a single array element to a method using its name, and the method must be prepared to receive the appropriate data type.	
+	c. You pass an array to a method using its name followed by a pair of brackets; arrays are passed by value.	[CORRECT]
