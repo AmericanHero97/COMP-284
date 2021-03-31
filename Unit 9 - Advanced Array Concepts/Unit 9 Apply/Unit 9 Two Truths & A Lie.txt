@@ -1,0 +1,37 @@
+Unit 9 Two Truths & A Lie
+
+1. Two of the following statements are true, and one is false. Identify the false statement and explain why it is false.
+	a. In an ascending bubble sort, you compare pairs of items, swapping them if they are out of order, so that the largest items "bubble" to the top of the list, eventually creating a sorted list. [CORRECT]
+	b. When you make a swap while sorting an array of objects, you typically swap entire objects and not just the field on which the comparison is made.	
+	c. When you sort objects, you usually want to sort based on a particular object field.	
+
+2. Identify the false statement and explain why it is false.
+	a. You can create an ascending list using an insertion sort, but not a descending one. [CORRECT]
+	b. When you use an insertion sort, you look at each list element one at a time and move items down if the tested element should be inserted before them.	
+	c. The insertion sort is similar to the technique you might use to sort a group of objects manually.	
+
+3. Identify the false statement and explain why it is false.
+	a. The following array contains two columns and three rows: [CORRECT]
+		int[][] myArray = { { 12, 14, 19},
+							  33, 45, 88} };
+	b. Two-dimensional arrays have both rows and columns, so you must use two subscripts when you access an element in a two-dimensional array.	
+	c. With a two-dimensional array, the length field holds the number of rows in the array; each row has a length field that holds the number of columns in the row.
+
+4. Identify the false statement and explain why it is false.
+	a. You can use the Arrays class binarySearch() method successfully on any array as soon as you have assigned values to the array elements. [CORRECT]
+	b. The Arrays class contains methods for manipulating arrays, such as binarySearch(), fill(), and sort().	
+	c. The binarySearch() method works by continuously deciding whether the element sought is above or below the halfway point in sublists of the original list.	
+
+5. Identify the false statement and explain why it is false.
+	a. An advantage of the ArrayList class over the Arrays class is that an ArrayList is dynamically resizable.	
+	b. An advantage of the ArrayList class over the Arrays class is that it can hold multiple object types.	
+	c. An advantage of the ArrayList class over the Arrays class is that it can hold primitive data types such as int and double. [CORRECT]
+
+6. Identify the false statement and explain why it is false.
+	Assume that you have coded the following:
+	enum Color {RED, WHITE, BLUE};
+	Color myColor = Color.RED;
+
+	a. The value of myColor.compareTo(Color.RED) is 0.	
+	b. The value of myColor.ordinal() is 1.	[CORRECT]
+	c. The value of myColor < Color.WHITE is true.
