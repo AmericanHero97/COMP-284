@@ -1,0 +1,148 @@
+Unit 9 Reviewing the Basics Quiz
+
+1. When you use a bubble sort to perform an ascending sort, after the first pass through an array the largest value is ____________.
+
+	It is impossible to determine the answer without more information.
+	at the end of the list [CORRECT]
+	at the beginning of the list
+	in the middle of the list
+
+2. When array elements are objects, you usually want to sort based on a particular ____________ of the object
+
+	method
+	type set
+	field [CORRECT]
+	name
+
+3. How many columns are contained in the following array?
+	double[][] prices = { { 2.56,  3.57,  4.58,  5.59},
+				          {12.35, 13.35, 14.35, 15.00} };
+
+	4 [CORRECT]
+	8
+	1
+	2
+
+4. When you place objects in order beginning with the object with the highest value, you are sorting in ascending order.
+
+	True
+	False [CORRECT]
+
+5. A jagged array has rows of different lengths.
+
+	True [CORRECT]
+	False
+
+6. Which of the following is true if a su[CORRECT]essfully running program contains the following statement:
+	Arrays.fill(tax, 10);
+
+	tax is an array with 10 elements.
+	tax is a two-dimensional array.
+	fill() is a nonstatic method.
+	none of the above [CORRECT]
+
+7. In the following array, what is the value of address[1][1] ?
+	String address = { {"123 Oak ",    "345 Elm "},
+					  {"87 Maple ", "901 Linden "} };
+
+	123 Oak
+	87 Maple
+	901 Linden [CORRECT]
+	345 Elm
+
+8. You place two pairs of empty brackets after the data type in the parameter list of a method that receives a two-dimensional array.
+
+	True [CORRECT]
+	False
+
+9. The chief disadvantage to using the ArrayList class instead of the Arrays class is that an ArrayList cannot be sorted.
+
+	True
+	False [CORRECT]
+
+10. In the following array, what is the value of fees[1].length ?
+	double[][] fees = { {3.00, 3.50, 4.00, 5.00},
+	                    {6.35, 7.35, 8.35, 9.00} };
+
+	4 [CORRECT]
+	8
+	2
+	none of the above
+
+11. The chief advantage to using the ArrayList class instead of the Arrays class is that an ArrayList ____________.
+
+	is dynamically resizable [CORRECT]
+	is easier to search
+	can be much larger
+	can be used as an argument to a static method
+
+12. In the following array, what is the value of code[2][1] ?
+	char[][] code = { {'A ', 'D ', 'M '},
+					  {'P ', 'R ', 'S '},
+					  {'U ', 'V ', 'Z '} };
+
+	'P'
+	'R'
+	'U'
+	'V' [CORRECT]
+
+13. Using a bubble sort involves comparing each array element with ____________.
+
+	the lowest element value
+	the adjacent element [CORRECT]
+	the corresponding element in a parallel array
+	the arithmetic average
+
+14. The following defines a ____________ array:
+	int[][] nums = { {1, 2}, {3, 4}, {5, 6} };
+
+	two-dimensional [CORRECT]
+	one-dimensional
+	three-dimensional
+	six-dimensional
+
+15. When you use a bubble sort to perform an ascending sort, after the first pass through an array the smallest value is ____________.
+
+	at the beginning of the list
+	at the end of the list
+	in the middle of the list
+	It is impossible to determine the answer without more information. [CORRECT]
+
+16. If the value of credits[0].length is not equal to credits[1].length, you know credits is a(n) ____________ array
+
+	jagged
+	partially populated
+	three-dimensional
+	uninitialized
+
+17. In the following array, what is the value of fees.length ?
+	double[][] fees = { {3.00, 3.50, 4.00, 5.00},
+						{6.35, 7.35, 8.35, 9.00} };
+
+	2 [CORRECT]
+	8
+	4
+	none of the above
+
+18. How many rows are contained in the following array?
+	double[][] prices = { { 2.56,  3.57,  4.58,  5.59},
+						  {12.35, 13.35, 14.35, 15.00} };
+
+	4
+	1
+	2 [CORRECT]
+	8
+
+19. An advantage to using an enumerated data type is ____________.
+
+	errors are reduced because only a limited set of values can be used with the type
+	coding time is reduced because enumerated types are created automatically by the compiler
+	time is saved because programs with enumerated types compile faster [CORRECT]
+	All of the above are true.
+
+20. Which of the following is a requirement when you use a binary search method with an array?
+
+	The array must have at least three elements.
+	The array must have been sorted in ascending order. [CORRECT]
+	The array must be numeric.
+	none of the above
