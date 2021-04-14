@@ -1,0 +1,129 @@
+Unit 10 Reviewing the Basics Quiz
+
+1. You call a static method using the name of ____________, a dot, and the method name.
+
+its class
+the class's superclass
+an object in the same class
+either a or b [CORRECT]
+
+2. A base class can also be called a superclass.
+
+True [CORRECT]
+False
+
+3. If you create a data field or method that is ____________, it can be used within its own class or in any classes extended from that class.
+
+public
+protected
+private
+both a and b [CORRECT]
+
+4. A reliable way to discover which of two classes is the base class and which is the subclass is to ____________.
+
+look at the class size
+try saying the two class names together [CORRECT]
+use polymorphism
+Both a and b are correct.
+
+5. If the only constructor in a superclass requires arguments, its subclass ____________.
+
+must not contain a constructor
+must not contain a constructor that requires arguments
+must contain a constructor that requires arguments
+must contain a constructor [CORRECT]
+
+6. When a parent class contains a static method, child classes ____________ override it.
+
+cannot [CORRECT]
+seldom
+frequently
+must
+
+7. The Java keyword that creates inheritance is inherits .
+
+True
+False [CORRECT]
+
+8. Which of the following choices is the best example of a parent class/child class relationship?
+
+BodyOfWater/River [CORRECT]
+Sparrow/Bird
+Spaniel/Dog
+Apple/Banana
+
+9. When you instantiate an object that is a member of a subclass, the ____________ constructor executes first.
+
+extended class
+child class
+parent class [CORRECT]
+subclass
+
+10. You use a ____________ method access specifier when you create methods for which you want to prevent overriding in extended classes.
+
+final [CORRECT]
+public
+protected
+subclass
+
+11. Within a subclass, you cannot override ____________ methods.
+
+private
+static [CORRECT]
+constructor
+public
+
+12. In Java, the concept of keeping data private is known as polymorphism.
+
+True
+False [CORRECT]
+
+13. Which of the following statements is true?
+
+A parent class inherits from a child class.
+A child class inherits from a parent class. [CORRECT]
+Both of the preceding statements are true.
+Neither a nor b is true.
+
+14. A class named Building has a public, nonstatic method named getFloors(). If School is a child class of Building, and modelHigh is an object of type School, which of the following statements is valid?
+
+All of the previous statements are valid.
+Building.getFloors();
+School.getFloors();
+modelHigh.getFloors(); [CORRECT]
+
+15. Employing inheritance reduces errors because ____________.
+
+methods that have been created in the superclass can be copied and pasted into the subclass
+many of the methods a subclass needs have already been used and tested [CORRECT]
+subclasses have access to fewer data fields
+subclasses have access to fewer methods
+
+16. When a subclass method has the same name and argument types as a superclass method, the subclass method ____________ the superclass method.
+
+overrides [CORRECT]
+overuses
+overloads
+overcompensates
+
+17. A child class Motorcycle extends a parent class Vehicle. Each class constructor requires one String argument. The Motorcycle class constructor can call the Vehicle class constructor with the statement ____________.
+
+super("Suzuki"); [CORRECT]
+Motorcycle("Harley");
+Motorcycle(model);
+Vehicle("Honda");
+
+18. A compiler can decide to inline a final method—that is, determine the code of the method call when the program is compiled.
+
+True [CORRECT]
+False
+
+19. The keyword super always refers to the parent class of the class in which you use it.
+
+True [CORRECT]
+False
+
+20. If a superclass constructor requires arguments, any constructor of its subclasses must call the superclass constructor as the last statement.
+
+True
+False [CORRECT]
