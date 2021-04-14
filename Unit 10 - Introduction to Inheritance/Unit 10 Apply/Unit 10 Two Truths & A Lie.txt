@@ -1,0 +1,36 @@
+Unit 10 Two Truths & A Lie
+
+1. Two of the following statements are true, and one is false. Identify the false statement and explain why it is false.
+	a. When you use inheritance in Java, you can create a new class that contains all the data and methods of an existing class.	
+	b. When you use inheritance, you save time and reduce errors.	
+	c. A class that is used as a basis for inheritance is called a subclass. [CORRECT]
+
+2. Identify the false statement and explain why it is false.
+	a. A derived class has access to all its parents' nonprivate methods.	
+	b. You use the keyword inherits to achieve inheritance in Java.	[CORRECT]
+	c. Subclasses are more specific than the superclass they extend.	
+
+3. Identify the false statement and explain why it is false.
+	a. When a child class method overrides a parent class method, and you use the method name with a child class object, the child class method version executes.	
+	b. Any child class object has all the attributes of its parent, but all of those attributes might not be directly accessible.	
+	c. You override a parent class method by creating a child class method with the same identifier but a different parameter list or return type. [CORRECT]
+
+4. Identify the false statement and explain why it is false.
+	a. When you create any subclass object, the subclass constructor executes first, and then the superclass constructor executes. [CORRECT]
+	b. When a superclass contains only nondefault constructors, you must include at least one constructor for each subclass you create.	
+	c. When constructors initialize variables, you usually want the superclass constructor to initialize the data fields that originate in the superclass and the subclass constructor to initialize the data fields that are specific to the subclass.	
+
+5. Identify the false statement and explain why it is false.
+	a. You can use the keyword super within a method in a derived class to access a method in a base class that has not been overridden.	
+	b. You can use the keyword this within a method in a derived class to access an overridden method in a base class. [CORRECT]
+	c. You can use the keyword super within a method in a derived class to access an overridden method in a base class.
+
+6. Identify the false statement and explain why it is false.
+	a. A subclass inherits all the data and methods of its superclass, except the private ones.	[CORRECT]
+	b. If a data field is defined as protected, a method in a child class can use it directly.	
+	c. Information hiding describes the concept of keeping data private.
+
+7. Identify the false statement and explain why it is false.
+	a. A subclass cannot override methods that are declared static in the superclass.	
+	b. A subclass cannot override methods that are declared private in the superclass. [CORRECT]
+	c. A subclass cannot override methods that are declared final in the superclass.
